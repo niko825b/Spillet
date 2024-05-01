@@ -1,0 +1,1 @@
+/usr/bin/x86_64-linux-gnu-g++-11 -DQT_QML_DEBUG -g CMakeFiles/Spillet.dir/main.cpp.o -o Spillet 
