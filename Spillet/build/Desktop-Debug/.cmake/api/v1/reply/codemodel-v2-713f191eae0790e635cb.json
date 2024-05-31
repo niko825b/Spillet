@@ -7,7 +7,7 @@
 				{
 					"build" : ".",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-.-Debug-b2417c2462e3f74ac95d.json",
+					"jsonFile" : "directory-.-Debug-ddbd8373459d49fcd29d.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.5"
@@ -40,7 +40,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "Spillet::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Spillet-Debug-1d91ba41e1c23c5516b0.json",
+					"jsonFile" : "target-Spillet-Debug-e04ddf6eebed9f074423.json",
 					"name" : "Spillet",
 					"projectIndex" : 0
 				}

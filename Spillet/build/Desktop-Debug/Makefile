@@ -174,6 +174,102 @@ Spillet/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Spillet.dir/build.make CMakeFiles/Spillet.dir/build
 .PHONY : Spillet/fast
 
+battle.o: battle.cpp.o
+.PHONY : battle.o
+
+# target to build an object file
+battle.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Spillet.dir/build.make CMakeFiles/Spillet.dir/battle.cpp.o
+.PHONY : battle.cpp.o
+
+battle.i: battle.cpp.i
+.PHONY : battle.i
+
+# target to preprocess a source file
+battle.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Spillet.dir/build.make CMakeFiles/Spillet.dir/battle.cpp.i
+.PHONY : battle.cpp.i
+
+battle.s: battle.cpp.s
+.PHONY : battle.s
+
+# target to generate assembly for a file
+battle.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Spillet.dir/build.make CMakeFiles/Spillet.dir/battle.cpp.s
+.PHONY : battle.cpp.s
+
+fjende.o: fjende.cpp.o
+.PHONY : fjende.o
+
+# target to build an object file
+fjende.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Spillet.dir/build.make CMakeFiles/Spillet.dir/fjende.cpp.o
+.PHONY : fjende.cpp.o
+
+fjende.i: fjende.cpp.i
+.PHONY : fjende.i
+
+# target to preprocess a source file
+fjende.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Spillet.dir/build.make CMakeFiles/Spillet.dir/fjende.cpp.i
+.PHONY : fjende.cpp.i
+
+fjende.s: fjende.cpp.s
+.PHONY : fjende.s
+
+# target to generate assembly for a file
+fjende.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Spillet.dir/build.make CMakeFiles/Spillet.dir/fjende.cpp.s
+.PHONY : fjende.cpp.s
+
+game.o: game.cpp.o
+.PHONY : game.o
+
+# target to build an object file
+game.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Spillet.dir/build.make CMakeFiles/Spillet.dir/game.cpp.o
+.PHONY : game.cpp.o
+
+game.i: game.cpp.i
+.PHONY : game.i
+
+# target to preprocess a source file
+game.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Spillet.dir/build.make CMakeFiles/Spillet.dir/game.cpp.i
+.PHONY : game.cpp.i
+
+game.s: game.cpp.s
+.PHONY : game.s
+
+# target to generate assembly for a file
+game.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Spillet.dir/build.make CMakeFiles/Spillet.dir/game.cpp.s
+.PHONY : game.cpp.s
+
+hero.o: hero.cpp.o
+.PHONY : hero.o
+
+# target to build an object file
+hero.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Spillet.dir/build.make CMakeFiles/Spillet.dir/hero.cpp.o
+.PHONY : hero.cpp.o
+
+hero.i: hero.cpp.i
+.PHONY : hero.i
+
+# target to preprocess a source file
+hero.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Spillet.dir/build.make CMakeFiles/Spillet.dir/hero.cpp.i
+.PHONY : hero.cpp.i
+
+hero.s: hero.cpp.s
+.PHONY : hero.s
+
+# target to generate assembly for a file
+hero.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Spillet.dir/build.make CMakeFiles/Spillet.dir/hero.cpp.s
+.PHONY : hero.cpp.s
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -211,6 +307,18 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... Spillet"
+	@echo "... battle.o"
+	@echo "... battle.i"
+	@echo "... battle.s"
+	@echo "... fjende.o"
+	@echo "... fjende.i"
+	@echo "... fjende.s"
+	@echo "... game.o"
+	@echo "... game.i"
+	@echo "... game.s"
+	@echo "... hero.o"
+	@echo "... hero.i"
+	@echo "... hero.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

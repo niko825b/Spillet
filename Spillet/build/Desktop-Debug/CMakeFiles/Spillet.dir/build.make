@@ -83,17 +83,82 @@ CMakeFiles/Spillet.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Spillet.dir/main.cpp.s"
 	/usr/bin/x86_64-linux-gnu-g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sammy/Documents/Spillet/Spillet/main.cpp -o CMakeFiles/Spillet.dir/main.cpp.s
 
+CMakeFiles/Spillet.dir/hero.cpp.o: CMakeFiles/Spillet.dir/flags.make
+CMakeFiles/Spillet.dir/hero.cpp.o: ../../hero.cpp
+CMakeFiles/Spillet.dir/hero.cpp.o: CMakeFiles/Spillet.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sammy/Documents/Spillet/Spillet/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Spillet.dir/hero.cpp.o"
+	/usr/bin/x86_64-linux-gnu-g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Spillet.dir/hero.cpp.o -MF CMakeFiles/Spillet.dir/hero.cpp.o.d -o CMakeFiles/Spillet.dir/hero.cpp.o -c /home/sammy/Documents/Spillet/Spillet/hero.cpp
+
+CMakeFiles/Spillet.dir/hero.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Spillet.dir/hero.cpp.i"
+	/usr/bin/x86_64-linux-gnu-g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sammy/Documents/Spillet/Spillet/hero.cpp > CMakeFiles/Spillet.dir/hero.cpp.i
+
+CMakeFiles/Spillet.dir/hero.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Spillet.dir/hero.cpp.s"
+	/usr/bin/x86_64-linux-gnu-g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sammy/Documents/Spillet/Spillet/hero.cpp -o CMakeFiles/Spillet.dir/hero.cpp.s
+
+CMakeFiles/Spillet.dir/fjende.cpp.o: CMakeFiles/Spillet.dir/flags.make
+CMakeFiles/Spillet.dir/fjende.cpp.o: ../../fjende.cpp
+CMakeFiles/Spillet.dir/fjende.cpp.o: CMakeFiles/Spillet.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sammy/Documents/Spillet/Spillet/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Spillet.dir/fjende.cpp.o"
+	/usr/bin/x86_64-linux-gnu-g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Spillet.dir/fjende.cpp.o -MF CMakeFiles/Spillet.dir/fjende.cpp.o.d -o CMakeFiles/Spillet.dir/fjende.cpp.o -c /home/sammy/Documents/Spillet/Spillet/fjende.cpp
+
+CMakeFiles/Spillet.dir/fjende.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Spillet.dir/fjende.cpp.i"
+	/usr/bin/x86_64-linux-gnu-g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sammy/Documents/Spillet/Spillet/fjende.cpp > CMakeFiles/Spillet.dir/fjende.cpp.i
+
+CMakeFiles/Spillet.dir/fjende.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Spillet.dir/fjende.cpp.s"
+	/usr/bin/x86_64-linux-gnu-g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sammy/Documents/Spillet/Spillet/fjende.cpp -o CMakeFiles/Spillet.dir/fjende.cpp.s
+
+CMakeFiles/Spillet.dir/battle.cpp.o: CMakeFiles/Spillet.dir/flags.make
+CMakeFiles/Spillet.dir/battle.cpp.o: ../../battle.cpp
+CMakeFiles/Spillet.dir/battle.cpp.o: CMakeFiles/Spillet.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sammy/Documents/Spillet/Spillet/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Spillet.dir/battle.cpp.o"
+	/usr/bin/x86_64-linux-gnu-g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Spillet.dir/battle.cpp.o -MF CMakeFiles/Spillet.dir/battle.cpp.o.d -o CMakeFiles/Spillet.dir/battle.cpp.o -c /home/sammy/Documents/Spillet/Spillet/battle.cpp
+
+CMakeFiles/Spillet.dir/battle.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Spillet.dir/battle.cpp.i"
+	/usr/bin/x86_64-linux-gnu-g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sammy/Documents/Spillet/Spillet/battle.cpp > CMakeFiles/Spillet.dir/battle.cpp.i
+
+CMakeFiles/Spillet.dir/battle.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Spillet.dir/battle.cpp.s"
+	/usr/bin/x86_64-linux-gnu-g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sammy/Documents/Spillet/Spillet/battle.cpp -o CMakeFiles/Spillet.dir/battle.cpp.s
+
+CMakeFiles/Spillet.dir/game.cpp.o: CMakeFiles/Spillet.dir/flags.make
+CMakeFiles/Spillet.dir/game.cpp.o: ../../game.cpp
+CMakeFiles/Spillet.dir/game.cpp.o: CMakeFiles/Spillet.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sammy/Documents/Spillet/Spillet/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Spillet.dir/game.cpp.o"
+	/usr/bin/x86_64-linux-gnu-g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Spillet.dir/game.cpp.o -MF CMakeFiles/Spillet.dir/game.cpp.o.d -o CMakeFiles/Spillet.dir/game.cpp.o -c /home/sammy/Documents/Spillet/Spillet/game.cpp
+
+CMakeFiles/Spillet.dir/game.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Spillet.dir/game.cpp.i"
+	/usr/bin/x86_64-linux-gnu-g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sammy/Documents/Spillet/Spillet/game.cpp > CMakeFiles/Spillet.dir/game.cpp.i
+
+CMakeFiles/Spillet.dir/game.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Spillet.dir/game.cpp.s"
+	/usr/bin/x86_64-linux-gnu-g++-11 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sammy/Documents/Spillet/Spillet/game.cpp -o CMakeFiles/Spillet.dir/game.cpp.s
+
 # Object files for target Spillet
 Spillet_OBJECTS = \
-"CMakeFiles/Spillet.dir/main.cpp.o"
+"CMakeFiles/Spillet.dir/main.cpp.o" \
+"CMakeFiles/Spillet.dir/hero.cpp.o" \
+"CMakeFiles/Spillet.dir/fjende.cpp.o" \
+"CMakeFiles/Spillet.dir/battle.cpp.o" \
+"CMakeFiles/Spillet.dir/game.cpp.o"
 
 # External object files for target Spillet
 Spillet_EXTERNAL_OBJECTS =
 
 Spillet: CMakeFiles/Spillet.dir/main.cpp.o
+Spillet: CMakeFiles/Spillet.dir/hero.cpp.o
+Spillet: CMakeFiles/Spillet.dir/fjende.cpp.o
+Spillet: CMakeFiles/Spillet.dir/battle.cpp.o
+Spillet: CMakeFiles/Spillet.dir/game.cpp.o
 Spillet: CMakeFiles/Spillet.dir/build.make
+Spillet: /usr/lib/x86_64-linux-gnu/libsqlite3.so
 Spillet: CMakeFiles/Spillet.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/sammy/Documents/Spillet/Spillet/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Spillet"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/sammy/Documents/Spillet/Spillet/build/Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable Spillet"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Spillet.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
