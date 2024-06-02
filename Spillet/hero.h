@@ -8,30 +8,29 @@
 class Hero {
 
 private:
+    int id;
     std::string navn;
     int XP;
     int Level;
     int HP;
     int Skade;
     int Styrke;
-    int id = 0;
+    int Guld;
+
     sqlite3* db;
 
 
 public:
-    Hero(const std::string &navn, int XP, int Level, int HP, int Skade, int Styrke);
+    Hero(std::string navn);
 
-    Hero(const std::string& navn, int XP, int Level, int HP, int Skade, int Styrke, int id);
+    Hero(const std::string &navn, int XP, int Level, int HP, int Skade, int Styrke, int Guld);
+
+    Hero(int id, const std::string& navn, int XP, int Level, int HP, int Skade, int Styrke, int Guld);
 
     static Hero loadHero(sqlite3* db, const std::string& navn);
-    void saveHero(sqlite3* db) const;
+    bool saveHero(sqlite3* db);
 
 
-    /*
-    void saveToDatabase(sqlite3* db);
-    static Hero loadFromDatabase(sqlite3* db, const std::string& navn);
-    void levelUp();
-    */
 
     //Setters og Getters
     std::string getNavn() const;
@@ -52,18 +51,13 @@ public:
     int getSkade() const;
     void setSkade(int Skade);
 
+    int getGuld() const;
+    void setGuld(int Guld);
+
     void addXP(int XP);
     void levelUp();
+    void addGuld(int Guld);
 
-
-    /*
-    void printInfo() const;
-    bool isAlive() const;
-    int attack() const;
-    void takeDamage(int damage);
-    bool checkLevelUp();
-    void addXP();
-    */
 };
 
 #endif // HERO_H

@@ -12,7 +12,8 @@ add_executable(Spillet main.cpp
     hero.h hero.cpp
     fjende.h fjende.cpp
     battle.h battle.cpp
-    game.h game.cpp)
+    game.h game.cpp
+    grotte.h grotte.cpp)
 
 target_link_libraries(Spillet PRIVATE
 SQLite::SQLite3)

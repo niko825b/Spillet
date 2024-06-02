@@ -246,6 +246,30 @@ game.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Spillet.dir/build.make CMakeFiles/Spillet.dir/game.cpp.s
 .PHONY : game.cpp.s
 
+grotte.o: grotte.cpp.o
+.PHONY : grotte.o
+
+# target to build an object file
+grotte.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Spillet.dir/build.make CMakeFiles/Spillet.dir/grotte.cpp.o
+.PHONY : grotte.cpp.o
+
+grotte.i: grotte.cpp.i
+.PHONY : grotte.i
+
+# target to preprocess a source file
+grotte.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Spillet.dir/build.make CMakeFiles/Spillet.dir/grotte.cpp.i
+.PHONY : grotte.cpp.i
+
+grotte.s: grotte.cpp.s
+.PHONY : grotte.s
+
+# target to generate assembly for a file
+grotte.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Spillet.dir/build.make CMakeFiles/Spillet.dir/grotte.cpp.s
+.PHONY : grotte.cpp.s
+
 hero.o: hero.cpp.o
 .PHONY : hero.o
 
@@ -316,6 +340,9 @@ help:
 	@echo "... game.o"
 	@echo "... game.i"
 	@echo "... game.s"
+	@echo "... grotte.o"
+	@echo "... grotte.i"
+	@echo "... grotte.s"
 	@echo "... hero.o"
 	@echo "... hero.i"
 	@echo "... hero.s"

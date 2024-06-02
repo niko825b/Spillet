@@ -16,19 +16,11 @@ private:
     int Skade;
     int XP;
 
+
 public:
-    /*
-    fjende();
-    */
     fjende(const std::string& navn, int HP, int Skade, int XP);
 
     static std::vector<fjende> loadFjender(sqlite3* db);
-
-    /*
-    void create(const std::string &navn, int HP, int Skade, int XP);
-    void saveToDatabase(sqlite3* db);
-    static fjende loadFromDatabase(sqlite3* db, const std::string& navn);
-    */
 
     //Getter og setter
     std::string getNavn() const;
@@ -43,12 +35,7 @@ public:
     int getXP() const;
     void setXP(int XP);
 
-    /*
-    void printInfo() const;
-    bool isAlive() const;
-    int attack() const;
-    void takeDamage(int Skade);
-    */
+    int getID() const;
 };
 
 #endif // FJENDE_H
